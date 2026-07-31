@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/org/oriient
+notes: >-
+  Oriient publishes its client libraries to the npm "@oriient" scope; the mobile
+  SDK source is hosted on GitLab (gitlab.com/oriient). No PyPI, Maven Central,
+  NuGet, CocoaPods, Go module, RubyGems, Packagist, or crates.io first-party
+  package was found. The marquee first-party SDK is the React-Native PLAI
+  (Product Location AI) package.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@oriient/react-native-oriient-plai"
+    version: 0.2.0
+    url: https://www.npmjs.com/package/@oriient/react-native-oriient-plai
+    repository: https://gitlab.com/oriient/mobile/react-native/oriient-plai
+    install: npm install @oriient/react-native-oriient-plai
+    description: Oriient Product Location AI (PLAI) SDK for React-Native (indoor positioning / product location).
+    license: Proprietary (Copyright (C) 2016-2023 Oriient New Media Ltd. All rights reserved.)
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@oriient/coordinates-convert"
+    version: 1.0.0
+    url: https://www.npmjs.com/package/@oriient/coordinates-convert
+    repository: https://gitlab.com/oriient/oriient-node
+    install: npm install @oriient/coordinates-convert
+    description: Coordinates conversion utilities for the Oriient system.
+    license: ISC
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@oriient/test-utils"
+    version: 2.1.0
+    url: https://www.npmjs.com/package/@oriient/test-utils
+    repository: https://gitlab.com/oriient/oriient-node
+    install: npm install @oriient/test-utils
+    description: Oriient common test utilities.
+    license: ISC
+    official: true

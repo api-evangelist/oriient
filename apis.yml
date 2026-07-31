@@ -1,7 +1,27 @@
 aid: oriient
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oriient.png
 name: Oriient
-description: Oriient is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Oriient provides software-only, hardware-free indoor positioning ("indoor GPS")
+  and navigation delivered as a SaaS SDK. Its geomagnetic technology reaches
+  roughly 1-meter (3-foot) accuracy indoors without Wi-Fi, beacons, or installed
+  infrastructure, powering product finding, order picking, visitor navigation,
+  asset tracking, and in-store analytics for retail, grocery, and smart-building
+  customers across thousands of locations. Oriient New Media Ltd is based in
+  Tel Aviv and is a Techstars portfolio company. Oriient ships first-party mobile
+  SDKs (including a React-Native Product Location AI package on npm) rather than a
+  public REST API; integration is gated behind a customer dashboard and sales.
 url: https://raw.githubusercontent.com/api-evangelist/oriient/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Indoor Positioning
+- Indoor Navigation
+- Location Services
+- Geolocation
+- SDK
+- Retail
+- Asset Tracking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://oriient.me/
+- type: Blog
+  url: https://www.oriient.me/blog/
+- type: Support
+  url: https://www.oriient.me/contact-us/
+- type: TermsOfService
+  url: https://www.oriient.me/terms-and-conditions/
+- type: GitHubOrganization
+  url: https://github.com/oriient
+- type: Packages
+  url: packages/oriient-packages.yml
+- type: SDKs
+  url: packages/oriient-packages.yml
+- type: LLMsTxt
+  url: llms/oriient-llms.txt
+- type: DomainSecurity
+  url: security/oriient-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

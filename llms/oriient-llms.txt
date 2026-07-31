@@ -1,0 +1,40 @@
+# Oriient
+
+> Oriient provides software-only, hardware-free indoor positioning ("indoor GPS")
+> and navigation delivered as a SaaS SDK. Its geomagnetic technology reaches
+> roughly 1-meter (3-foot) accuracy without Wi-Fi, beacons, or installed
+> infrastructure, and powers product-finding, order picking, visitor navigation,
+> asset tracking, and in-store analytics for retail, grocery, and smart-building
+> customers across thousands of locations. Oriient New Media Ltd is
+> headquartered in Tel Aviv and is a Techstars portfolio company.
+
+This is a catalog-generated llms.txt for the API Evangelist network. Oriient does
+not publish a public REST API, OpenAPI definition, or developer portal; it ships
+mobile SDKs. Integration is gated behind a customer dashboard and sales contact.
+
+## Product
+- Company site: https://www.oriient.me/
+- What it is: geomagnetic indoor positioning / navigation SDK (SaaS, no hardware)
+- Marquee capability: Product Location AI (PLAI)
+- Customer dashboard: https://dashboard.oriient.me/
+
+## SDKs / Packages
+- React-Native PLAI SDK (npm, official): https://www.npmjs.com/package/@oriient/react-native-oriient-plai
+- Coordinates conversion utilities (npm, official): https://www.npmjs.com/package/@oriient/coordinates-convert
+- Common test utilities (npm, official): https://www.npmjs.com/package/@oriient/test-utils
+- SDK source (GitLab org): https://gitlab.com/oriient
+
+## Source / Repos
+- GitHub organization: https://github.com/oriient
+- npm organization: https://www.npmjs.com/org/oriient
+
+## Docs & Company
+- Blog: https://www.oriient.me/blog/
+- Contact / demo request: https://www.oriient.me/contact-us/
+- Terms & Conditions: https://www.oriient.me/terms-and-conditions/
+- Available on Google Cloud Marketplace
+
+## Network artifacts (this repo)
+- Packages: packages/oriient-packages.yml
+- Well-known probe: well-known/oriient-well-known.yml
+- Domain security: security/oriient-domain-security.yml

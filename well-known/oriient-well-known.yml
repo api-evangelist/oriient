@@ -1,0 +1,44 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of /.well-known/* and discovery paths on Oriient hosts
+notes: >-
+  No .well-known discovery documents are published. The apex host redirects
+  several /.well-known/* paths (301) into the marketing site catch-all rather
+  than serving RFC 9116 / OIDC / RFC 8414 / api-catalog documents. Recorded as
+  an honest negative result; no WellKnown scoring pointer is wired because no
+  document returned 200.
+hosts:
+  - host: https://oriient.me
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 301
+      - path: /.well-known/oauth-authorization-server
+        status: 301
+      - path: /.well-known/api-catalog
+        status: 301
+      - path: /.well-known/ai-plugin.json
+        status: 301
+      - path: /llms.txt
+        status: 404
+  - host: https://docs.oriient.me
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /llms.txt
+        status: 404
+  - host: https://dashboard.oriient.me
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+  - host: https://api.oriient.me
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
